@@ -7,6 +7,7 @@ struct BOX {
 	double surface;
 	double packSize;
 };
+
 void getVolumeSurface(BOX* box);
 bool isSendable(BOX* box);
 
